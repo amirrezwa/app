@@ -1,0 +1,9 @@
+<template>
+  <q-page class="row items-center justify-evenly">
+    {{ TodoList }}
+  </q-page>
+</template>
+
+<script setup lang="ts">
+import TodoList from 'src/components/TodoList.vue';
+</script>
