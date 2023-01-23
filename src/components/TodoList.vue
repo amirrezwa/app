@@ -1,5 +1,8 @@
 <template>
-  <div>My component</div>
+  <div>
+    <q-input type="text" label="Todo" />
+    <q-input type="textarea" label="Description" />
+  </div>
 </template>
 
 <script lang="ts">
